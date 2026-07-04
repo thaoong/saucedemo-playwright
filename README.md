@@ -33,7 +33,7 @@ This repository contains automated tests for the Sauce Demo e-commerce applicati
 
 1. Clone or navigate to the project directory:
    ```bash
-   cd PlaywrightAutomation
+   cd saucedemo-playwright
    ```
 
 2. Install dependencies:
@@ -83,7 +83,7 @@ npx playwright show-report
 ## Project Structure
 
 ```
-PlaywrightAutomation/
+saucedemo-playwright/
 ├── tests/                    # Test spec files (TypeScript)
 │   ├── example.spec.ts       # Sample test suite
 │   └── login.spec.ts         # Login feature tests
