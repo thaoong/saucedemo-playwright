@@ -39,10 +39,7 @@ export default defineConfig({
       name: 'chromium',
       use: {
         ...devices['Desktop Chrome'],
-        headless: false,
-        launchOptions: {
-          args: ['--start-maximized'],
-        },
+        headless: !!process.env.CI,
       },
     },
 
@@ -50,10 +47,7 @@ export default defineConfig({
       name: 'firefox',
       use: {
         ...devices['Desktop Firefox'],
-        headless: false,
-        launchOptions: {
-          args: ['--start-maximized'],
-        },
+        headless: !!process.env.CI,
       },
     },
 
@@ -61,10 +55,7 @@ export default defineConfig({
       name: 'webkit',
       use: {
         ...devices['Desktop Safari'],
-        headless: false,
-        launchOptions: {
-          args: ['--start-maximized'],
-        },
+        headless: !!process.env.CI,
       },
     },
 
