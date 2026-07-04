@@ -1,6 +1,23 @@
-# PlaywrightAutomation
+# Playwright Automation - Sauce Demo
 
-End-to-end browser testing for the [Sauce Demo](https://www.saucedemo.com/) application using Playwright and TypeScript.
+[![Playwright](https://img.shields.io/badge/Playwright-v1.53.0-blueviolet)](https://playwright.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue)](https://www.typescriptlang.org/)
+[![Node](https://img.shields.io/badge/Node.js-16+-green)](https://nodejs.org/)
+
+End-to-end browser testing for the [Sauce Demo](https://www.saucedemo.com/) application using Playwright and TypeScript. This project demonstrates modern test automation best practices with page object models, comprehensive test organization, and maintainable code structure.
+
+## Quick Start
+
+```bash
+# Install dependencies
+npm install && npx playwright install
+
+# Run all tests
+npx playwright test
+
+# View test report
+npx playwright show-report
+```
 
 ## Overview
 
